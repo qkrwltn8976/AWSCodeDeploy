@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /home/ubuntu/tua.server
+sudo docker-compose stop
+cd /home/ubuntu/tua.server/node
+sudo rm -rf /home/ubuntu/tua.server/node/backend
+sudo rm -rf /home/ubuntu/tua.server/node/node_modules
+sudo rm -rf /home/ubuntu/tua.server/node/package.json
