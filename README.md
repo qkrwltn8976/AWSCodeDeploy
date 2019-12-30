@@ -235,5 +235,5 @@ Key = Name, Value = MyCodePipelineDemo
   * Deployment group
   : MyApplicationGroup
    
-   
+![](img/11.png)
   
