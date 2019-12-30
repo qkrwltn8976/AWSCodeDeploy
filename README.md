@@ -37,6 +37,7 @@ AWS deployment automation using pipeline
 > 로컬 환경에서 CodePipeline 명령 호출하기 위해 aws cli 설치
 
 sudo pip install awscli
+
 aws configure
 
 AWS Access Key ID [None]: Type your target AWS access key ID here, and then press Enter
