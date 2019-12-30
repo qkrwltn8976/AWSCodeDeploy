@@ -10,15 +10,29 @@ AWS deployment automation using pipeline
 > Users
 
 > Add user
-
-
-> Policies 정책
 ![](img/1.png)
-> Create policy 
-> Add 
-
+* User name
+* Select Access Type
+  * AWS Management Console access
+* Permission
+  * Add user to group (생성된 그룹이 없을 시 Create group)
+* Tag (생략)
+* Review
+* Access key & scret access key
 
 ## 2 IAM 관리형 정책을 사용해 IAM 사용자에게 CodePipeline 권한 할당
+> Identity and Access Management (IAM)
+
+> Access management 
+
+> Policies 정책
+
+> AWS Management 콘솔을 사용해 IAM 사용자에게 권한을 부여
+* 정책 목록에서 AWSCodePipelineFullAcess 관리형 정책 선택
+![](img/2.png)
+* Policy action
+* Attach : 정책을 부여할 유저 선택
+
 
 ## 3 AWS CLI 설치
 
