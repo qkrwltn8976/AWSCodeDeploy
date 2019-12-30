@@ -3,9 +3,12 @@ AWS deployment automation using pipeline
 - https://docs.aws.amazon.com/ko_kr/codepipeline/latest/userguide/getting-started-codepipeline.html
 
 ## 1 IAM 사용자 생성
-> Identity and Access Management (IAM) 
+> Identity and Access Management (IAM)
+
 > Access management 
+
 > Users
+
 > Add user
 
 
